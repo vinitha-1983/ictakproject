@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.ictaktest.com.testclass">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="tccourselist"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.ictaktest.com.testclass -->
+      <class name="org.ictaktest.com.ctestclass">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="setup"/>
+          <include name="tcinvalid"/>
+          <include name="tccou"/>
+        </methods>
+      </class> <!-- org.ictaktest.com.ctestclass -->
+      <class name="org.ictaktest.com.ptestclass">
+        <methods>
+          <include name="tcinvalidemp"/>
+          <include name="closebrowser"/>
+          <include name="tcinvalidsq"/>
+          <include name="setup"/>
+          <include name="tcinvaliddis"/>
+          <include name="tcinvalbrief"/>
+          <include name="tcinvalidaddress"/>
+          <include name="tcinvalexpects"/>
+          <include name="tcinvalidname"/>
+          <include name="tcvalid"/>
+          <include name="tcinvalpromoters"/>
+          <include name="tcinvalidphn"/>
+          <include name="tcinvalidfirm"/>
+        </methods>
+      </class> <!-- org.ictaktest.com.ptestclass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

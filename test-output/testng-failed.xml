@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.ictaktest.com.ptestclass">
+        <methods>
+          <include name="tcinvalidemp"/>
+          <include name="closebrowser"/>
+          <include name="tcinvalidsq"/>
+          <include name="setup"/>
+          <include name="tcinvaliddis"/>
+          <include name="tcinvalidaddress"/>
+          <include name="tcinvalbrief"/>
+          <include name="tcinvalexpects"/>
+          <include name="tcinvalidname"/>
+          <include name="tcinvalpromoters"/>
+          <include name="tcinvalidphn"/>
+          <include name="tcinvalidfirm"/>
+        </methods>
+      </class> <!-- org.ictaktest.com.ptestclass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
