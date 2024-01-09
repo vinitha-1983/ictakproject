@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="ALL-Test">
     <classes>
-		<class name="org.ictaktest.com.testclass"/>
-		<class name="org.ictaktest.com.ctestclass"/>
-        <class name="org.ictaktest.com.ptestclass"/>
+      <class name="ictakwebsiteproject.Homeclass"/>
+      <class name="ictakwebsiteproject.Membershipclass"/>
+      <class name="ictakwebsiteproject.ContactUsclass"/>
+      <class name="ictakwebsiteproject.Loginclass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
