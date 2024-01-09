@@ -3,22 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.ictaktest.com.ptestclass">
+      <class name="ictak.TestClassLogin">
         <methods>
-          <include name="tcinvalidemp"/>
-          <include name="closebrowser"/>
-          <include name="tcinvalidsq"/>
+          <include name="setwrongpass"/>
+          <include name="InValidTestcase"/>
+          <include name="setWrong_uname"/>
+          <include name="setBlank_uname_passwd"/>
           <include name="setup"/>
-          <include name="tcinvaliddis"/>
-          <include name="tcinvalidaddress"/>
-          <include name="tcinvalbrief"/>
-          <include name="tcinvalexpects"/>
-          <include name="tcinvalidname"/>
-          <include name="tcinvalpromoters"/>
-          <include name="tcinvalidphn"/>
-          <include name="tcinvalidfirm"/>
         </methods>
-      </class> <!-- org.ictaktest.com.ptestclass -->
+      </class> <!-- ictak.TestClassLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

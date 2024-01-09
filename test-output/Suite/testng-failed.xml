@@ -3,38 +3,36 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.ictaktest.com.testclass">
+      <class name="ictak.TestClassContact">
         <methods>
-          <include name="closebrowser"/>
-          <include name="tccourselist"/>
+          <include name="testnumber"/>
+          <include name="testemail"/>
           <include name="setup"/>
+          <include name="testphonenclickContactUsNumber"/>
+          <include name="testaddress"/>
         </methods>
-      </class> <!-- org.ictaktest.com.testclass -->
-      <class name="org.ictaktest.com.ctestclass">
+      </class> <!-- ictak.TestClassContact -->
+      <class name="ictak.TestClassLogin">
         <methods>
-          <include name="closebrowser"/>
+          <include name="setwrongpass"/>
+          <include name="InValidTestcase"/>
+          <include name="setWrong_uname"/>
+          <include name="setBlank_uname_passwd"/>
           <include name="setup"/>
-          <include name="tcinvalid"/>
-          <include name="tccou"/>
+          <include name="ValidTestcase"/>
         </methods>
-      </class> <!-- org.ictaktest.com.ctestclass -->
-      <class name="org.ictaktest.com.ptestclass">
+      </class> <!-- ictak.TestClassLogin -->
+      <class name="ictak.TestClassEventsTachlon">
         <methods>
-          <include name="tcinvalidemp"/>
-          <include name="closebrowser"/>
-          <include name="tcinvalidsq"/>
+          <include name="setdetailsinvalid_testcase_1"/>
           <include name="setup"/>
-          <include name="tcinvaliddis"/>
-          <include name="tcinvalbrief"/>
-          <include name="tcinvalidaddress"/>
-          <include name="tcinvalexpects"/>
-          <include name="tcinvalidname"/>
-          <include name="tcvalid"/>
-          <include name="tcinvalpromoters"/>
-          <include name="tcinvalidphn"/>
-          <include name="tcinvalidfirm"/>
+          <include name="setdetailsvalid"/>
+          <include name="setdetailblank"/>
+          <include name="setdetailsinvalid_testcase_2"/>
+          <include name="set"/>
+          <include name="clickEvent"/>
         </methods>
-      </class> <!-- org.ictaktest.com.ptestclass -->
+      </class> <!-- ictak.TestClassEventsTachlon -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,9 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-		<class name="org.ictaktest.com.testclass"/>
-		<class name="org.ictaktest.com.ctestclass"/>
-        <class name="org.ictaktest.com.ptestclass"/>
+		     <class name="ictak.TestClassNav"/>
+      <class name="ictak.TestClassEventsTachlon"/>
+		<class name="ictak.TestClassContact"/>
+      		<class name="ictak.TestClassLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+ 
